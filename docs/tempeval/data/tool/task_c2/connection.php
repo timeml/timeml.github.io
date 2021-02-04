@@ -1,0 +1,1 @@
+<?php$hostname = "MySQL.timeml.org";$db = 'xtimeml-test';$username = 'xtimeml'; $password = "store4time";?>

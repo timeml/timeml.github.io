@@ -1,0 +1,38 @@
+Marc Verhagen, Inderjeet Mani, Roser Sauri, Jessica Littman, Robert Knippen, Seok Bae Jang, Anna Rumshisky, John Phillips, James Pustejovsky:
+Automating Temporal Annotation with TARSQI,Ê
+ACL 2005, Ann Arbor
+
+Roser Sauri and Marc Verhagen:
+Temporal Information in Intensional Contexts,
+IWCS-6 2005, Netherlands
+
+Roser Saur’, Robert Knippen, Marc Verhagen, James Pustejovsky
+A Robust Event Recognizer For QA Systems
+submitted to HLT-EMNLP 2005
+
+GUTime and Evita at timeml.org
+
+    http://timeml.org/tarsqi/presentations/acl2005/demo3.php
+
+GUTime at GU
+
+    http://complingone.georgetown.edu/cgi-bin/jbp24/gutime/timex.cgi
+
+TimeBank browser
+
+    http://timeml.org/timebank/browser2/
+
+
+
+
+Hi there,
+
+While reading other stuff I came across a couple of references that can be useful for the work on TLinking. Since I will forget them soon (and I don't know who is going to work on that), I'm sending them to everybody in case one of you is interested in the topic.
+
+-- Dowty, David (1986) 'The Effects of Aspectual Class on the Temporal Structure of Discourse: Semantics or Pragmatics?'. In: Linguistics and Philisophy, 9: 37-61.
+
+-- Passoneau, Rebecca (1988) 'A computational Model of the Semantics of Tense and Aspect'. In: Computational Linguistics: Special Issue on Tense and Aspect. 14(2): 44-60.
+
+Roser
+
+

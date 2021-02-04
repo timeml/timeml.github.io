@@ -1,0 +1,35 @@
+Day, David, Lisa Ferro, Robert Gaizauskas, Patrick Hanks, Marcia Lazo, James Pustejovsky, Roser Sauri, Andrew See, Andrea Setzer, Beth Sundheim. 2003. "The !TimeBank Corpus", Proceedings of Corpus Linguistics. 2003.
+
+Mani, Inderjeet, Ben Wellner, Marc Verhagen, Chong Min Lee, James Pustejovsky. 2006. "Machine Learning of Temporal Relations", Proceedings of the 44th Annual Meeting of the Association for Computational Linguistics, Sydney, Australia.
+
+Pan, Feng, Rutu Mulkar, Jerry Hobbs. 2006. "Learning Event Durations from Event Descriptions", Proceedings of the 44th Annual Meeting of the Association for Computational Linguistics (COLING-ACL), Sydney, Australia, pp. 393-400.
+
+Pan, Feng, Rutu Mulkar, Jerry Hobbs. 2006. "An Annotated Corpus of Typical Durations of Events". Proceedings of the Fifth International Conference on Language Resources and Evaluation (LREC), Genoa, Italy, pp. 77-83.Pan, Feng, Rutu Mulkar, Jerry Hobbs. 2006. "Extending TimeML with Typical Durations of Events", Proceedings of Annotating and Reasoning about Time and Events workshop at the 44th Annual Meeting of the Association for Computational Linguistics (COLING-ACL), Sydney, Australia, pp. 38-45.
+
+Rumshisky, Aanna, Patrick Hanks, Catherine Havasi, James Pustejovsky. 2006. "Constructing a Corpus-based Ontology using Model Bias", The 19th International FLAIRS Conference. 2006, Melbourne Beach, Florida, USA.
+
+Pustejovsky, James, Jose Castano, Robert Ingria, Roser Sauri, Robert Gaizauskas, Andrea Setzer, Graham Katz. 2003. "!TimeML: Robust Specification of Event and Temporal Expressions in Text", IWCS-5 Fifth International Workshop on Computational Semantics, Tilburg, Netherlands. 2003.
+
+Pustejovsky, James, Robert Knippen, Jessica Littman, Roser Sauri. 2005. "Temporal and Event Information in Natural Language Text", Language Resources and Evaluation", May 2005, Springer.
+
+Pustejovsky, James, Marc Verhagen. 2007. "Constructing Event-based Entity Chronicles", International Workshop on Computational Semantics (IWCS-7), Tilburg, Netherlands, January 2007.
+
+Pustejovsky, James, Robert Gaizauskas, Marc Verhagen, (editors). forthcoming. "Time and Event Recognition in Natural Language", John Benjamin Publications.
+
+Sauri, Roser, Marc Verhagen, James Pustejovsky. 2005. "Temporal Information in Intensional Contexts", Proceedings of the Sixth International Workshop on Computation Semantics (IWCS-6), Tilburg, Netherlands, 2005.
+
+Sauri, Roser, Robert Knippen, Marc Verhagen, James Pustejovsky. 2005. "Evita: A Robust Event Recognizer For QA Systems", Proceedings of the HLT/EMNLP 2005.
+
+Sauri, Roser, Marc Verhagen, James Pustejovsky. 2006. "Annotating and Recognizing Event Modality in Text", The 19th International FLAIRS Conference. 2006, Melbourne Beach, Florida, USA.
+
+Sauri, Roser, Marc Verhagen, James Pustejovsky. 2006. "Slinket: A Partial Modal Parser for Events", Language Resources and Evaluation Conference (LREC 2006), Genoa, Italy.
+
+Verhagen, Marc. 2005. "Temporal Closure in an Annotation Environment", Language Resources and Evaluation, Volume 39, May 2005, Springer.
+
+Verhagen, Marc, Inderjeet Mani, Roser Sauri, Jessica Littman, Robert Knippen, Seok Bae Jang, Anna Rumshisky, John Phillips, James Pustejovsky. 2005. "Automating Temporal Annotation with TARSQI", Proceedings of the 43th Annual Meeting of the Association for Computational Linguistics, Ann Arbor, USA. 2005
+
+Verhagen, Marc, Robert Knippen, Inderjeet Mani, James Pustejovsky. 2006. "Annotation of Temporal Relations with Tango", Language Resources and Evaluation Conference (LREC 2006), Genoa, Italy.
+
+Verhagen, Marc, Robert Gaizauskas, Frank Schilder, Mark Hepple, Graham Katz, James Pustejovsky. 2007. "TempEval Task Description", Proceedings of the SemEval 2007 Workshop at the ACL Conference. Prague, Czech Republic.
+
+Verhagen, Marc. forthcoming. "Drawing !TimeML Relations with T-BOX", Proceedings of the Dagstuhl Seminar: Annotating, Extracting and Reasoning about Time and Events. 2005, Springer.

@@ -1,0 +1,176 @@
+digraph G {
+	rankdir = "LR" 	edge[decorate=true labelfontname=Helvetica labelfontsize="12"];
+	e39 [ color=yellow, shape=box, style=filled, label="consultant"];
+
+	e17 [ color=yellow, shape=box, style=filled, label="said"];
+
+	e28 [ color=yellow, shape=box, style=filled, label="move"];
+
+	e18 [ color=yellow, shape=box, style=filled, label="provide"];
+
+	e29 [ color=yellow, shape=box, style=filled, label="services"];
+
+	e1 [ color=yellow, shape=box, style=filled, label="double"];
+
+	e30 [ color=yellow, shape=box, style=filled, label="crisis"];
+
+	e2 [ color=yellow, shape=box, style=filled, label="search"];
+
+	e20 [ color=yellow, shape=box, style=filled, label="said"];
+
+	e31 [ color=yellow, shape=box, style=filled, label="flights"];
+
+	e21 [ color=yellow, shape=box, style=filled, label="working"];
+
+	e65 [ color=yellow, shape=box, style=filled, label="departing"];
+
+	e10 [ color=yellow, shape=box, style=filled, label="announced"];
+
+	e32 [ color=yellow, shape=box, style=filled, label="flights"];
+
+	e22 [ color=yellow, shape=box, style=filled, label="develop"];
+
+	e11 [ color=yellow, shape=box, style=filled, label="said"];
+
+	e33 [ color=yellow, shape=box, style=filled, label="flights"];
+
+	e5 [ color=yellow, shape=box, style=filled, label="suspended"];
+
+	e12 [ color=yellow, shape=box, label="leave"];
+	ei340 [color=red, shape=box, label="leave"];
+	ei354 [color=red, shape=box, label="leave"];
+
+	e34 [ color=yellow, shape=box, style=filled, label="ties"];
+
+	e35 [ color=yellow, shape=box, style=filled, label="statement"];
+
+	e7 [ color=yellow, shape=box, style=filled, label="cut"];
+
+	e25 [ color=yellow, shape=box, style=filled, label="appoint"];
+
+	e36 [ color=yellow, shape=box, style=filled, label="India"];
+
+	e14 [ color=yellow, shape=box, style=filled, label="add"];
+
+	e8 [ color=yellow, shape=box, style=filled, label="plans"];
+
+	e37 [ color=yellow, shape=box, style=filled, label="support"];
+
+	e229 [ color=yellow, shape=box, label="flights"];
+	ei339 [color=red, shape=box, label="flights"];
+	ei355 [color=red, shape=box, label="flights"];
+
+	e9 [ color=yellow, shape=box, style=filled, label="boost"];
+
+	e26 [ color=yellow, shape=box, style=filled, label="crisis"];
+
+	e38 [ color=yellow, shape=box, style=filled, label="awareness"];
+
+	e16 [ color=yellow, shape=box, style=filled, label="talk"];
+
+	e27 [ color=yellow, shape=box, style=filled, label="untouched"];
+
+	t46 [label="current [PRESENT_REF]", shape=diamond, color=blue];
+	t47 [label="Friday [1998-02-13]", shape=diamond, color=blue];
+	t198 [label="nights [2TNI]", shape=diamond, color=blue];
+	t41 [label="02/13/1998 14:35:00 [1998-02-13T14:35:00]", shape=house, color=blue];
+	t54 [label="Thursday [4]", shape=diamond, color=blue];
+	t189 [label="Tuesday [2]", shape=diamond, color=blue];
+	t43 [label="August [1998-08]", shape=diamond, color=blue];
+	t55 [label="August 6 [1998-08-06]", shape=diamond, color=blue];
+	t190 [label="Monday [1]", shape=diamond, color=blue];
+	t44 [label="a month [P1M]", shape=diamond, color=blue];
+	t56 [label="March 30 [1998-03-30]", shape=diamond, color=blue];
+	t191 [label="nights [1TNI]", shape=diamond, color=blue];
+	t190 -> t47 [style=invis, arrowhead=none];
+	t47 -> t41 [style=invis, arrowhead=none];
+	t41 -> t56 [style=invis, arrowhead=none];
+	t56 -> t43 [style=invis, arrowhead=none];
+	t43 -> t55 [style=invis, arrowhead=none];
+	t55 -> t191 [style=invis, arrowhead=none];
+	t191 -> t189 [style=invis, arrowhead=none];
+	t189 -> t198 [style=invis, arrowhead=none];
+	t198 -> t54 [style=invis, arrowhead=none];
+	t54 -> t44 [style=invis, arrowhead=none];
+	t44 -> t46 [style=invis, arrowhead=none];
+	t41 -> e20 [label="BEFORE", color=purple, arrowhead=normal, arrowtail=none];
+	t56 -> ei354 [label="BEGUN_BY [from]", color=purple, arrowhead=normal, arrowtail=none, style=dotted];
+	e28 -> e5 [label="AFTER <a month> [after]", color=purple, arrowhead=none, arrowtail=normal, style=dotted, style=dotted];
+	e65 -> t54 [label="IS_INCLUDED", color=purple, arrowhead=normal, arrowtail=none];
+	{rank=same; e65; t54;}
+	e35 -> e10 [label="INCLUDES", color=purple, arrowhead=normal, arrowtail=none];
+	{rank=same; e35; e10;}
+	e25 -> t41 [label="AFTER", color=purple, arrowhead=none, arrowtail=normal];
+	ei339 -> e32 [label="IS_INCLUDED", color=purple, arrowhead=normal, arrowtail=none];
+	{rank=same; ei339; e32;}
+	e5 -> e30 [label="AFTER [inthe wake of]", color=purple, arrowhead=none, arrowtail=normal, style=dotted];
+	t55 -> e65 [label="BEGUN_BY [from]", color=purple, arrowhead=normal, arrowtail=none, style=dotted];
+	e35 -> e11 [label="INCLUDES", color=purple, arrowhead=normal, arrowtail=none];
+	{rank=same; e35; e11;}
+	e1 -> t43 [label="ENDED_BY [by]", color=purple, arrowhead=none, arrowtail=normal, style=dotted];
+	ei355 -> e32 [label="IS_INCLUDED", color=purple, arrowhead=normal, arrowtail=none];
+	{rank=same; ei355; e32;}
+	e7 -> e5 [label="IS_INCLUDED", color=purple, arrowhead=normal, arrowtail=none];
+	{rank=same; e7; e5;}
+	e14 -> t41 [label="AFTER", color=purple, arrowhead=none, arrowtail=normal];
+	ei340 -> t191 [label="IS_INCLUDED [on]", color=purple, arrowhead=normal, arrowtail=none, style=dotted];
+	{rank=same; ei340; t191;}
+	e26 -> e27 [label="BEGUN_BY", color=purple, arrowhead=normal, arrowtail=none];
+	ei339 -> ei354 [label="IDENT", color=purple, arrowhead=normal, arrowtail=none];
+	{rank=same; ei339; ei354;}
+	t46 -> e33 [label="INCLUDES", color=purple, arrowhead=normal, arrowtail=none];
+	{rank=same; t46; e33;}
+	e36 -> t41 [label="INCLUDES", color=purple, arrowhead=normal, arrowtail=none];
+	{rank=same; e36; t41;}
+	ei354 -> t191 [label="IS_INCLUDED [on]", color=purple, arrowhead=normal, arrowtail=none, style=dotted];
+	{rank=same; ei354; t191;}
+	e26 -> t41 [label="AFTER", color=purple, arrowhead=none, arrowtail=normal];
+	ei339 -> ei354 [label="IDENT", color=purple, arrowhead=normal, arrowtail=none];
+	{rank=same; ei339; ei354;}
+	e32 -> e33 [label="INCLUDES", color=purple, arrowhead=normal, arrowtail=none];
+	{rank=same; e32; e33;}
+	e36 -> e17 [label="INCLUDES", color=purple, arrowhead=normal, arrowtail=none];
+	{rank=same; e36; e17;}
+	t56 -> ei340 [label="BEGUN_BY [from]", color=purple, arrowhead=normal, arrowtail=none, style=dotted];
+	e28 -> e1 [label="IDENT", color=purple, arrowhead=normal, arrowtail=none];
+	{rank=same; e28; e1;}
+	e65 -> e32 [label="IS_INCLUDED", color=purple, arrowhead=normal, arrowtail=none];
+	{rank=same; e65; e32;}
+	e10 -> t47 [label="IS_INCLUDED", color=purple, arrowhead=normal, arrowtail=none];
+	{rank=same; e10; t47;}
+	e10 -> e8 [label="EVIDENTIAL", color=blue];
+
+	e18 -> e18 [label="MODAL [would]", color=blue];
+
+	e25 -> e39 [label="MODAL", color=blue];
+
+	e11 -> ei340 [label="EVIDENTIAL", color=blue];
+
+	e18 -> e37 [label="MODAL", color=blue];
+
+	e1 -> e2 [label="MODAL", color=blue];
+
+	ei340 -> ei340 [label="MODAL [would]", color=blue];
+
+	e20 -> e21 [label="EVIDENTIAL", color=blue];
+
+	e8 -> e32 [label="MODAL", color=blue];
+
+	ei354 -> ei354 [label="MODAL [would]", color=blue];
+
+	e21 -> e22 [label="MODAL [to]", color=blue];
+
+	e8 -> e9 [label="MODAL [to]", color=blue];
+
+	e36 -> e16 [label="MODAL [to]", color=blue];
+
+	e22 -> e38 [label="MODAL", color=blue];
+
+	e9 -> e34 [label="MODAL", color=blue];
+
+	e17 -> e18 [label="EVIDENTIAL", color=blue];
+
+	ei327 -> e5 [label="TERMINATES", color = orange, arrowhead=none, arrowtail=normal];
+	ei330 -> e7 [label="TERMINATES", color = orange, arrowhead=none, arrowtail=normal];
+
+}

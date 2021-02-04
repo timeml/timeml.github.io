@@ -1,0 +1,46 @@
+body { 
+	background-color: lightyellow;    
+}
+
+h1 {
+	margin-top: 2pt;
+}
+
+h2 {
+	background-color: lightblue;
+        border: 2px solid #999999;
+	padding: 5pt;
+	margin-top: 0pt;
+}
+
+blockquote {
+	padding: 5pt;
+	margin-right: 0pt;
+	margin-left: 10pt;
+}
+
+pre {
+	background-color: lightyellow;
+	padding: 5pt;
+	margin-top: 0pt;
+}
+
+textarea { 
+	background-color: white;    
+}
+
+.listing { 
+	background-color: #eeeeee;
+}
+
+.description { 
+	background-color: #eeffee;
+        border: 2px solid #999999;
+	padding: 5pt;
+}
+
+.bug-header { 
+	background-color: #ddffdd;
+        border: 2px solid #999999;
+	padding: 5pt;
+}

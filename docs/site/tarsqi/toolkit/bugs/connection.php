@@ -1,0 +1,1 @@
+<?php$hostname = "127.0.0.1";$db = 'xtimeml-ttk';$username = 'root'; $password = "wortel";?>
